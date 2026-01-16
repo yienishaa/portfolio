@@ -9,7 +9,7 @@ import {
   Button,
   Box,
   Container,
-    Avatar
+  Avatar
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import LightModeIcon from '@mui/icons-material/LightMode';
@@ -44,7 +44,7 @@ function Header({ mode, toggleMode }) {
           {/* Desktop Logo */}
 
           <IconButton sx={{ display: { xs: 'none', md: 'flex' }, mr: 2 }} >
-            <Avatar alt="Remy Sharp" src="../../y.png" sx={{ bgcolor: 'gray' }} />
+            <Avatar alt="Yienisha Abeyratne" src={`${process.env.PUBLIC_URL}/y.png`} sx={{ bgcolor: 'gray' }} />
           </IconButton>
           <Typography
             variant="h6"

@@ -13,7 +13,7 @@ function Education() {
         {/* York University */}
         <Grid item size={3} >
           <Avatar
-            src="../../YorkULogo_DIGITAL_Ver_RGB.png"
+            src={`${process.env.PUBLIC_URL}/YorkULogo_DIGITAL_Ver_RGB.png`}
             alt="York University Logo"
             sx={{ width: 110, height: 115, bgcolor: "#FFFFFF", border:5, borderColor:"#FFFFFF" }}
             variant="square"
@@ -58,7 +58,7 @@ function Education() {
 
         <Grid item size={3}>
             <Avatar
-              src="../../SLIIT_Logo_Crest-2.png"
+              src={`${process.env.PUBLIC_URL}/SLIIT_Logo_Crest-2.png`}
               alt="Sheffielfd Hallam University"
               sx={{ width: 120, height: 150, bgcolor: "transparent", }}
               variant="square"
